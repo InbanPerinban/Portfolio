@@ -1,0 +1,436 @@
+body{
+    color: rgb(45, 80, 235);
+    background-color:rgb(240, 235, 245);
+}
+@media screen and (max-width: 500px){
+    .about{
+        text-align: left;
+        float: none;
+        display: block;
+    }
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    
+}
+.head-left{
+    width:50%;
+    
+}
+.head-left h1{
+    margin-left:240px;
+}
+.head-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.head-right a{
+  
+    margin-top: 25px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 25px;
+    width: 100%;
+}
+.img-left{
+    width: 50%;
+}
+.img-left img{
+    width: 400px;
+    margin-left: 190px;
+}
+.con-left{
+    width: 50%;
+    
+    
+}
+.con-left h1{
+    margin-left: 90px;
+    margin-top: 150px;
+
+}
+.con-left p{
+    margin-left: 70px;
+    font-size: 25px;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.cont2{
+    margin-top: 50px;
+    
+}
+
+.head h1{
+    text-align: center;
+}
+.about{
+    
+    display: flex;
+}
+.school{
+    
+    width: 31%;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    
+    margin-left: 23px;
+}
+.school.hover{
+    color: aqua ;
+}
+.school h1{
+    margin-left: 50px;
+}
+.college{
+    
+    width: 31%;
+    border: solid;
+    display: flex;
+    margin-left: 23px;
+    flex-direction: row;
+    background-color: azure;
+}
+.quotes{
+    
+    width: 31%;
+    border: solid;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+}
+.im img{
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    
+}
+.ed{
+    margin-top: 120px;
+    margin-left: 12px;
+    font-size: 19px;
+}
+.text{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.mark{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.text h1{
+    margin-left: 20px;
+}
+.de{
+    margin-left: 17px;
+}
+
+.im p{
+    margin-left: 150px;
+    font-size: 25px;
+    font-style: normal;
+    font-family:cursive;
+}
+
+.skills{
+    
+    margin-top: 75px;
+}
+.info{
+    margin-left: 670px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    
+}
+.python{
+    width: 31%;
+    border: solid;
+    margin-left: 30px;
+    background-color: beige;
+    
+}
+.python img{
+    margin-left: 150px;
+    width: 150px;
+    height: 95px;
+    margin-top: 13px;
+}
+.python p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 60px;
+    margin-top: 25px;
+    margin-right: 19px;
+}
+.html{
+    width: 31%;
+    border: solid;
+    border-radius: 12px;
+    margin-left: 30px;
+    background-color: beige;
+    
+    
+}
+.html p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight:bold ;
+    font-style: normal;
+    margin-left: 60px;
+    margin-right: 19px;
+}
+.html img{
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+.cloud{
+    width: 31%;
+    border: solid;
+    margin-left: 30px;
+    background-color: beige;
+    
+}
+.cloud img{
+    margin-left: 150px;
+    margin-top: 12px;
+    width: 160px;
+    height: 100px;
+}
+.cloud p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight:bold ;
+    font-style: normal;
+    margin-left: 60px;
+    margin-right: 19px;   
+}
+.frameworks{
+    margin-top: 19px;
+    width: 50%;
+    background-color: beige;
+    margin-left: 25%;
+    border: solid;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    
+}
+.frame img{
+    width: 150px;
+    margin-top: 12px;
+    margin-left: 150px;
+}
+.frameworks p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight:bold ;
+    font-style: normal;
+    margin-left: 60px;
+    margin-right: 19px;
+    
+
+}
+.my-det{
+
+    display: flex;
+    flex-direction: row;
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.projects{
+    margin-top: 70px;
+    width: 20%;
+    margin-left: 670px;
+}
+.home{
+
+    width: 31%;
+    border: solid;
+    margin-left:28px;
+    border:solid;
+}
+.video{
+
+    width: 31%;
+    border: solid;
+    margin-left: 28px;
+   
+}
+.ride{
+
+    width: 31%;
+    border: solid;
+    margin-left: 28px;
+    border: solid;
+}
+.ip{
+    margin-left: 130px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.ib{
+    margin-left: 130px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 21px;
+}
+.ie{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-left: 70px;
+
+}
+.in{
+    margin-left: 12px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-right: 36px;
+    font-size: 20px;
+}
+.cert{
+    
+    margin-top: 50px;
+    border: solid;
+    width: 50%;
+    margin-left: 400px;
+}
+
+.certificates h1{
+    margin-left: 200px;
+}
+.information{
+
+    width: 80%;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.information p{
+    margin-left: 40px;
+    margin-right: 15px;
+
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.git{
+    width: 50px;
+    padding-right: 52px;
+    padding-top: 3px;
+}
+.drive{
+    width:52px;
+    padding-top: 4px;
+    
+}
+.linkedn{
+    width:50px;
+    padding-left: 50px;
+}
+
+.form{
+    
+    
+    height: 450px;
+    margin-top: 55px;
+    width:70%;
+    margin-left: 10%;
+}
+.topic{
+    margin-left: 45%;
+}
+
+#sub{
+    margin-left: 52%;
+    margin-top: 15px;
+    border: solid;
+    font-size: 20px;
+}
+.name{
+    margin-left: 35%;
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.email{
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.ms{
+    margin-top: 30px;
+    margin-left: 32.5%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#name{
+    padding-left: 105px;
+    margin-left: 15px;
+    border: solid;
+}
+#email{
+    padding-left: 105px;
+    margin-left: 2px;
+    border: solid;
+}
+#message{
+    padding-top: 15px;
+    margin-right: 5%;
+    border: solid;
+    padding-left: 25px;
+    margin-left: 15px;
+    
+}
